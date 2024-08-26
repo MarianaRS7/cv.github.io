@@ -6,7 +6,7 @@ st.set_page_config(page_title="Currículum Vitae", layout="wide")
 col1, col2 = st.columns([1, 2.2]) # The ratio [1, 2] means col2 is twice as wide as col1.
 
 with col1:
-    st.image("/Users/anapa/Downloads/CV.jpeg", caption="", width=140)
+    st.image("CV.jpeg", width=160)
 
     # Título
     st.markdown("## Mariana Ramírez Sánchez")
